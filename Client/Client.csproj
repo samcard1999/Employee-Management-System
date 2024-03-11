@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseBlazorWebAssembly>true</UseBlazorWebAssembly>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="24.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="24.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="24.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="24.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.Popups" Version="24.2.7" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="24.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
+    <ProjectReference Include="..\ClientLibrary\ClientLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\companylogos\" />
+  </ItemGroup>
+
+</Project>
